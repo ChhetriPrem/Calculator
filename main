@@ -1,0 +1,66 @@
+package hello;
+import  java.util.Scanner;
+public class MyClass {
+	
+	
+	
+	public static void main(String[] args) {
+	
+// CAlculator
+		
+		// Introduction part 
+		
+		System.out.println("Welcome to the Calculator");
+		Scanner in = new Scanner(System.in); // Take input from keyboard command(for numbers to calculate)
+		
+
+		// Enter the number display
+		System.out.print("Enter the first number: ");
+		float Number1 = in.nextFloat(); // input number1 
+		
+		System.out.print("Enter the second number: ");
+		float Number2 = in.nextFloat(); // input number 1
+		
+
+
+		
+		
+		
+		System.out.print("1) Add 2) Substract 3) Multiply 4) Division: ");
+		System.out.print("Please ENter your choice as 1/2/3/4: ");
+		int Choice = in.nextInt(); // Takes the input of choice
+		
+
+
+			
+		
+			switch(Choice){  // Takes the input of choice 
+			
+			case 1:
+				System.out.println("Your result is " + (Number1 + Number2));
+				break;
+				
+				
+			case 2:
+				System.out.println("Your result is " + (Number1 - Number2));
+				break;
+					
+					
+			case 3:
+				System.out.println("Your result is " + (Number1 * Number2));
+				break;
+					
+					
+			case 4:
+				System.out.println("Your result is " + (Number1 + Number2));
+				break;
+					
+				
+			default:
+				System.out.println("Enter a choice from 1-4 ");
+			}
+				
+			}
+		}
+		
+		
